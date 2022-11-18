@@ -1,1 +1,13 @@
+getgenv().Key = "c"
+getgenv().HitBox = "Head"
+getgenv().AimRadius =  100
+getgenv().ThirdPerson = true
+getgenv().FirstPerson = true
+getgenv().TeamCheck = false
+getgenv().line = false
+getgenv().PredictMovement = true
+getgenv().PredictionVelocity =7.22
+getgenv().CheckIfJumped = true
+getgenv().Smoothness = true
+getgenv().Smoothness = 0.019 -- Stay Under 2 To Be legit --
 loadstring(game:HttpGet("https://pastebin.com/raw/LDDRM9hB", true))()
