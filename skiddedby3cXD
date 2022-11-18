@@ -1,13 +1,23 @@
-getgenv().Key = "c"
-getgenv().HitBox = "Head"
-getgenv().AimRadius =  100
-getgenv().ThirdPerson = true
-getgenv().FirstPerson = true
-getgenv().TeamCheck = false
-getgenv().line = false
-getgenv().PredictMovement = true
-getgenv().PredictionVelocity =7.22
-getgenv().CheckIfJumped = true
-getgenv().Smoothness = true
-getgenv().Smoothness = 0.019 -- Stay Under 2 To Be legit --
-loadstring(game:HttpGet("https://pastebin.com/raw/LDDRM9hB", true))()
+getgenv().Settings = {
+    Enabled = true,
+    Part = "HumanoidRootPart",
+    Pred = 0.119,
+    ClosestPart = true,
+}
+getgenv().FOV = {
+    Visible = true,
+    Radius = 35,
+}
+getgenv().Tracer = {
+    TracerToggle = "Q",
+    Enabled = true,
+    Part = "HumanoidRootPart",
+    Pred = 7.76,
+    SmoothnessValue = 0.010,
+    Smoothness = true,
+    TraceClosestPart = true
+}
+getgenv().Misc = {
+    CheckForWalls = true,
+}
+loadstring(game:HttpGet("https://pastebin.com/raw/LDDRM9hB"))() 
